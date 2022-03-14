@@ -1,0 +1,399 @@
+.Container{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    width: 1332px;
+    height: 50px;
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    padding: 18px;
+    align-items: baseline;
+    justify-content: space-around;
+}
+/*Barra Navegacion*/
+.Title{
+    position:relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3D58D1;
+    font-weight: bold;
+    left: 80px;
+}
+.Database{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 36px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.Education{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.News{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Regulation{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.HoaxBuster{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Termina Barra Navegacion*/
+
+/*Texto1*/
+.Cont1{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-gap: 5px;
+    grid-template-columns: auto;
+}
+
+.H1{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: .8cm;
+    color: #1F3E72;
+    left: 10px;
+    top: 0px;
+}
+
+.Text1{
+    position:absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #6D7B93;
+    font-size: .5cm;
+    top: 200px;
+    left: 10px;
+}
+
+.Cont2{
+    position: absolute;
+    top: 450px;
+    left: 200px;
+    display: grid;
+    background-color: white;
+    width: 340px;
+    height: 50px;
+    display: flex;
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.BProtection{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00155D;
+
+}
+
+.SVaccines{
+    position: absolute;
+    left: 200px;
+    top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00155D;
+}
+
+.Schedule{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 570px;
+    left: 200px;
+    color: #193A6F;
+}
+
+.Square1{
+    position: absolute;
+    width: 690px;
+    height: 800px;
+    top: 50px;
+    left: 750px;
+    background: linear-gradient(50deg, #3169DC, #3496E5);
+}
+.Img3{
+    position: absolute;
+    left: 830px;
+    top: 50px;
+}
+
+.Cont3{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6D7B93;
+    top: 600px;
+    left: 210px;
+    width: 700px;
+    height: 90px;
+    display: grid;
+    border-radius: 15px;
+    background-color: white;
+    z-index: 3;
+}
+/*Termina Texto1*/
+
+/*Logo*/
+.Astra{
+    position: absolute;
+    top: 850px;
+    left: 50px;
+    filter: grayscale(200%);
+    opacity: 0.3;
+}
+.Sinovac{
+    position: absolute;
+    top: 850px;
+    left: 390px;
+    filter: grayscale(200%);
+    opacity: 0.3;
+}
+.Pfizer{
+    position: absolute;
+    top: 850px;
+    left: 740px;
+    filter: grayscale(200%);
+    opacity: 0.3;
+}
+.Moderna{
+    position: absolute;
+    top: 850px;
+    left: 1090px;
+    filter: grayscale(200%);
+    opacity: 0.3;
+}
+/* Termina Logo*/
+
+/*Text2*/
+.H2{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1F3E72;
+    font-size: 1cm;
+    font-weight: bold;
+    top: 1200px;
+    left: 80px;
+}
+
+.Text2{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6D7B93;
+    font-size: .5cm;
+    top: 1250px;
+    left: 80px;
+}
+
+.B1{
+    position:absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000D46;
+    font-size: 20px;
+    top: 1380px;
+    left: 160px;
+}
+
+.BT1{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6D7B93;
+    font-size: 17px;
+    top: 1440px;
+    left: 160px;
+}
+
+.B2{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000D46;
+    font-size: 20px;
+    top: 1380px;
+    left: 450px;
+}
+
+.BT2{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6D7B93;
+    font-size: 17px;
+    top: 1440px;
+    left: 450px;
+}
+
+.B3{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000D46;
+    font-size: 20px;
+    top: 1380px;
+    left: 800px;
+}
+
+.BT3{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6D7B93;
+    font-size: 17px;
+    top: 1440px;
+    left: 800px;
+}
+
+.B4{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000D46;
+    font-size: 20px;
+    top: 1380px;
+    left: 1100px;
+}
+
+.BT4{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6D7B93;
+    font-size: 17px;
+    top: 1440px;
+    left: 1100px;
+}
+/*Termina Text2*/
+
+/*Text3*/
+.H3{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1F3E72;
+    font-size: 1cm;
+    top: 1700px;
+    left: 800px;
+}
+
+.Text3{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6D7B93;
+    top: 1760px;
+    left: 800px;
+}
+
+.Preparation{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6D7B93;
+    top: 1870px;
+    left: 700px;
+    display: grid;
+    background-color: white;
+}
+
+.Square2{
+    position: absolute;
+    left: 0px;
+    top: 1600px;
+    width: 450px;
+    height: 592px;
+    background: linear-gradient(100deg, #3169DC, #3496E5);
+    z-index: 1;
+}
+.Img2{
+    position: absolute;
+    left: 0px;
+    top: 1600px;
+    z-index: 2;
+}
+/*Termina Text3*/
+
+/*Text4*/
+.H4{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1F3E72;
+    font-size: 1cm;
+    top: 2400px;
+    left: 150px;
+}
+
+.Text4{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6D7B93;
+    top: 2470px;
+    left: 150px;
+}
+
+.Cont4{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1F3E72;
+    font-weight: bold;
+    top: 2550px;
+    left: 250px;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    display: grid;
+}
+
+.Square3{
+    position: absolute;
+    left: 940px;
+    top: 2550px;
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(50deg, #3169DC, #3496E5);
+    z-index: 1;
+}
+.Img1{
+    position: absolute;
+    top: 2458px;
+    left: 1069px;
+    z-index: 2;
+}
+/*Termina Text4*/
+
+/*Footer*/
+.Cont5{
+    position: absolute;
+    top: 3100px;
+    left: 0px;
+    width: 1300px;
+    height: 300px;
+    background-color: #EEF3FE;
+    display: grid;
+    padding: 40px;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+
+.Vaccination{
+    position: absolute;
+    display: contents;
+    flex-grow: 2;
+}
+
+.Text5{
+    flex-grow: 2;
+    justify-content: center;
+}
+/*Termina Footer*/
+
+
+
+
