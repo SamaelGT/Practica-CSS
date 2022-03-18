@@ -117,6 +117,7 @@
 .Schedule{
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     top: 570px;
     left: 200px;
     color: #193A6F;
@@ -140,6 +141,7 @@
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     color: #6D7B93;
+    font-size: 20px;
     top: 600px;
     left: 210px;
     width: 700px;
@@ -189,7 +191,7 @@
     color: #1F3E72;
     font-size: 1cm;
     font-weight: bold;
-    top: 1200px;
+    top: 1100px;
     left: 80px;
 }
 
@@ -198,7 +200,7 @@
     font-family: Arial, Helvetica, sans-serif;
     color: #6D7B93;
     font-size: .5cm;
-    top: 1250px;
+    top: 1150px;
     left: 80px;
 }
 
@@ -281,7 +283,7 @@
     font-family: Arial, Helvetica, sans-serif;
     color: #1F3E72;
     font-size: 1cm;
-    top: 1700px;
+    top: 1600px;
     left: 800px;
 }
 
@@ -289,7 +291,7 @@
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     color: #6D7B93;
-    top: 1760px;
+    top: 1660px;
     left: 800px;
 }
 
@@ -297,11 +299,37 @@
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     color: #6D7B93;
-    top: 1870px;
+    top: 1800px;
     left: 700px;
-    display: grid;
+    width: 700px;
+    height: 500px;
     background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
 }
+section p{
+    overflow: hidden;
+    max-height: 0;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6D7B93;
+}
+section a{
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid #6c76887e;
+}
+section :target p{
+    max-height: 120px;
+    padding: 10px;
+}
+
 
 .Square2{
     position: absolute;
@@ -373,27 +401,237 @@
     position: absolute;
     top: 3100px;
     left: 0px;
-    width: 1300px;
-    height: 300px;
+    width: 1360px;
+    height: 200px;
     background-color: #EEF3FE;
-    display: grid;
     padding: 40px;
     grid-template-rows: 100px 100px;
     grid-template-columns: 3fr 1fr 1fr 1fr;
 }
 
-.Vaccination{
+.H5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3D58D1;
+    font-size: 20px;
+    font-weight: bold;
     position: absolute;
-    display: contents;
-    flex-grow: 2;
+    top: 40px;
+    left: 180px;
 }
-
 .Text5{
-    flex-grow: 2;
-    justify-content: center;
+    position: absolute;
+    top: 80px;
+    left: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6D7B93;
+}
+.About{
+    position: absolute;
+    top: 40px;
+    left: 850px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1F3E72;
+    font-weight: bold;
+}
+.Company{
+    position: absolute;
+    top: 40px;
+    left: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1F3E72;
+    font-weight: bold;
+}
+.Support{
+    position: absolute;
+    top: 40px;
+    left: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1F3E72;
+    font-weight: bold;
+}
+.AboutUs{
+    position: absolute;
+    top: 90px;
+    left: 850px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6D7B93;
+}
+.Features{
+    position: absolute;
+    top: 130px;
+    left: 850px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6D7B93;
+}
+.NewBlog{
+    position: absolute;
+    top: 170px;
+    left: 850px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6D7B93;
+}
+.Howwework{
+    position: absolute;
+    top: 90px;
+    left: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6D7B93;
+}
+.Capital{
+    position: absolute;
+    top: 130px;
+    left: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6D7B93;
+}
+.Security{
+    position: absolute;
+    top: 170px;
+    left: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6D7B93;
+}
+.FAQs{
+    position: absolute;
+    top: 90px;
+    left: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6D7B93;
+}
+.SupportCenter{
+    position: absolute;
+    top: 130px;
+    left: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6D7B93;
+}
+.ContactUs{
+    position: absolute;
+    top: 170px;
+    left: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6D7B93;
 }
 /*Termina Footer*/
 
+/*Icons*/
+.BPIcon{
+    position: absolute;
+    border-radius: 5px;
+    background: radial-gradient(white, #FFFCF1);
+    top: 468px;
+    left: 220px;
+}
+.SVIcon{
+    position: absolute;
+    border-radius: 5px;
+    background: radial-gradient(white, #FFFCF1);
+    top: 468px;
+    left: 375px;
+}
+.SIcon{
+    position: absolute;
+    border-radius: 5px;
+    background: radial-gradient(white, #E9F0FD);
+    top: 567px;
+    left: 170px;
+    z-index: 3;
+}
+.LIcon{
+    position: absolute;
+    border-radius: 5px;
+    background: radial-gradient(white, #E9F0FD);
+    top: 612px;
+    left: 185px;
+    z-index: 3;
+}
+.DIcon{
+    position: absolute;
+    background: radial-gradient(white, #E9F0FD);
+    top: 612px;
+    left: 382px;
+    z-index: 3;
+}
+.VTIcon{
+    position: absolute;
+    border-radius: 5px;
+    background: radial-gradient(white, #E9F0FD);
+    top: 612px;
+    left: 610px;
+    z-index: 3;
+}
+.MSVIcon{
+    position: absolute;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(white, #E9F0FD);
+    top: 1335px;
+    left: 160px;
+    z-index: 3;
+}
+.FAIcon{
+    position: absolute;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(white, #E9F0FD);
+    top: 1335px;
+    left: 460px;
+    z-index: 3;
+}
+.PPNIcon{
+    position: absolute;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(white, #E9F0FD);
+    top: 1335px;
+    left: 810px;
+    z-index: 3;
+}
+.CGIIcon{
+    position: absolute;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(white, #E9F0FD);
+    top: 1335px;
+    left: 1100px;
+    z-index: 3;
+}
+.EIcon{
+    position: absolute;
+    top:2590px;
+    left: 400px;
+}
+.VIcon{
+    position: absolute;
+    top:2785px;
+    left: 190px;
+}
+.CHIcon{
+    position: absolute;
+    top:2785px;
+    left: 400px;
+}
+.CIcon{
+    position: absolute;
+    top:2590px;
+    left: 190px;
+}
 
 
 
